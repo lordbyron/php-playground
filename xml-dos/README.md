@@ -11,6 +11,7 @@ http://stackoverflow.com/questions/10212752/how-can-i-use-phps-various-xml-libra
 http://msdn.microsoft.com/en-us/magazine/ee335713.aspx
 
 Findings:
+
 1. disable local file inclusion with libxml_disable_entity_loader();
 2. by default, libxml won't allow much entity recursion
 3. This is the real challenge. I found the most surefire solution was to simply disallow any inline DTDs in the API. See parse.php function preparse.
