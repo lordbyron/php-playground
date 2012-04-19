@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<!DOCTYPE data [
+<!ENTITY ent "attack_string">
+<!ENTITY e2 "&ent;&ent;&ent;&ent;">
+<!ENTITY e3 "&e2;&e2;&e2;&e2;&e2;&e2;">
+<!ENTITY e4 "&e3;&e3;&e3;&e3;&e3;&e3;">
+<!ENTITY e5 "&e4;&e4;&e4;&e4;&e4;&e4;">
+<!ENTITY e6 "&e5;&e5;&e5;&e5;&e5;&e5;">
+]>
+<data>&e6;</data>
